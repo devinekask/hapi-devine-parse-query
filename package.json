@@ -1,0 +1,23 @@
+{
+  "name": "hapi-devine-parse-query",
+  "version": "0.1.0",
+  "description": "🔧 query parser helper for Hapi / Mongoose",
+  "main": "index.js",
+  "repository": "devinehowest/hapi-devine-parse-query",
+  "author": {
+    "name": "Geoffrey Dhuyvetters",
+    "url": "https://github.com/devinehowest"
+  },
+  "scripts": {
+    "release": "release-it"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-devine": "^1.7.1",
+    "release-it": "^2.7.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
