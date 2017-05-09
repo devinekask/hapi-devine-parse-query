@@ -27,8 +27,6 @@ module.exports = (Model, query = {}, {
 
   if (search) filter = Object.assign({}, filter, search);
 
-  console.log(`filter`, filter);
-
   return Model.count(filter)
     .then(count => {
 
